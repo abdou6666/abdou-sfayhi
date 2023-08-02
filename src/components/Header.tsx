@@ -5,7 +5,7 @@ import Avatar from './Avatar'
 
 const Header = () => {
     return (
-        <header className='mt-20 p-5'>
+        <header className='p-5'>
             <Avatar />
             <div className='mt-10'>
 

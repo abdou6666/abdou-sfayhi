@@ -7,15 +7,15 @@ interface StackProps {
 const Stack: FC<StackProps> = ({ technologies }) => {
     let content;
 
-    content = ['React', 'Express.js', 'Node.js', 'MongoDb'].map((technology, index) => {
+    content = technologies.map((technology, index) => {
         return (
-            <div key={index} className='w-fit h-fit p-1 rounded-lg bg-red-950 text-white text-xs px-2 mt-2 '>
+            <p key={index} className='p-1 rounded-lg bg-red-950 text-white text-xs px-2 mt-2 w-fit '>
                 {technology}
-            </div>
+            </p>
         )
     })
     return (
-        <div className='flex justify-center items-center gap-2 '>
+        <div className='flex justify-center items-center gap-2 w-full h-fit '>
             {content}
         </div>
     )

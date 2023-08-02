@@ -1,8 +1,9 @@
 import Navbar from '@/components/Navbar';
 import './globals.css'
 import type { Metadata } from 'next'
-
+import { Construction, HardHat, HardHatIcon } from 'lucide-react'
 import { Poppins } from "next/font/google";
+import Footer from '@/components/Footer';
 const roboto = Poppins({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
@@ -23,8 +24,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} bg-gray-100  overflow-x-hidden `}>
+
         <Navbar />
+        <div className="flex flex-col items-center justify-center bg-yellow-500 rounded p-5 h-24">
+          <HardHatIcon className='text-white font-semibold' />
+          <p className='text-lg w-fit text-white font-semibold'>Under Consturction</p>
+        </div>
         {children}
+        <Footer />
       </body>
     </html>
   )
