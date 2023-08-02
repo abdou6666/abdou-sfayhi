@@ -8,15 +8,15 @@ const projects = [
     description: 'A social app media',
     technologies: ['React', 'Express.js', 'MongoDB', 'Node.js', 'Mongoose', 'SocketIO'],
     githubLink: 'http://github.com/abdou6666/pethub',
-    hostedLlink: 'http://vercel.com'
+    hostedLink: 'http://vercel.com'
   },
   {
     id: 2,
     title: 'Breadit',
     description: 'A reddit clone',
-    technologies: ['Next.js', 'Typescript', 'Tailwindcss', 'Reddis', 'MySQL', 'Prisma', 'CDN', 'NextAuth'],
+    technologies: ['Next.js', 'Typescript', 'Tailwindcss', 'Reddis', 'MySQL', 'Prisma', 'NextAuth'],
     githubLink: 'http://github.com/abdou6666/pethub',
-    hostedLlink: 'http://vercel.com'
+    hostedLink: 'http://vercel.com'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     description: 'A video streaming app sends data via chunks',
     technologies: ['Next.js', 'Express.js', 'Tailwindcss'],
     githubLink: 'http://github.com/abdou6666/video-streaming',
-    hostedLlink: 'http://vercel.com'
+    hostedLink: 'http://vercel.com'
   },
   {
     id: 4,
@@ -56,8 +56,8 @@ const projects = [
   },
   {
     id: 8,
-    title: 'Tournament & Gaming Platform (e-sports)',
-    description: 'This project conssists of 3 projects (Web site, Desktop app, Mobile app)',
+    title: 'Arena (e-sports)',
+    description: 'This project conssists of 3 projects (Web app, Desktop app, Mobile app)',
     technologies: ['Symfony 4.4', 'Java 8', 'JavaFx', 'Codenameone', 'MySQL'],
     githubLink: 'https://github.com/abdou6666/arena',
   },

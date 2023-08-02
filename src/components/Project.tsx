@@ -13,7 +13,6 @@ type ProjectType = {
 }
 const Project = ({ project }: { project: ProjectType }) => {
     return (
-        // <div className='mt-5 mr-4 w-max-64 h-max-34 hover:brightness-95'>
         <Card className='mt-5 mr-4 w-92 h-60 hover:brightness-95 w-1/2 '>
             <div className="flex flex-col justify-around items-start w-full h-full">
                 <div className="flex items-center justify-between w-full h-full">
@@ -38,14 +37,13 @@ const Project = ({ project }: { project: ProjectType }) => {
                     </div>
                 </div>
 
-                <Description className='w-[80%]'>{project.description}</Description>
-                <div className='self-end w-full h-fit '>
+                <Description className='w-full'>{project.description}</Description>
+                <div className='self-end w-full h-fit mt-1 '>
                     <Stack technologies={project.technologies} />
                 </div>
 
             </div>
         </Card>
-        // </div>
     )
 }
 
