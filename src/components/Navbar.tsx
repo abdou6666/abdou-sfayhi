@@ -20,11 +20,7 @@ const Navbar = () => {
                         <TwitterIcon />
                     </Link>
                 </li>
-                <li className="mr-3 text-cyan-700 hover:underline">
-                    <Link href="https://www.facebook.com/sfayhi.abdou/" target="_blank">
-                        <FacebookIcon />
-                    </Link>
-                </li>
+
             </ul>
             <ul className="flex justify-end items-center text-sm bg-gray-200 ">
                 <li className="mr-3 text-cyan-700 hover:underline"><Link href="/">Home</Link></li>

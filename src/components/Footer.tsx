@@ -3,7 +3,7 @@ import { MailIcon } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className='mt-16'>
             <nav className="w-screen h-7 p-5 bg-gray-200 overflow-y-hidden flex justify-between items-center fixed bottom-0 left-0">
                 <ul className="flex justify-start items-center text-sm bg-gray-200  mr-5 w-full">
                     <li className="mr-3 text-cyan-700 flex items-center justify-center text-center m-auto w-full">

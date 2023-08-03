@@ -1,9 +1,9 @@
-import Navbar from '@/components/Navbar';
-import './globals.css'
-import type { Metadata } from 'next'
-import { Construction, HardHat, HardHatIcon } from 'lucide-react'
-import { Poppins } from "next/font/google";
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import { HardHatIcon } from 'lucide-react';
+import type { Metadata } from 'next';
+import { Poppins } from "next/font/google";
+import './globals.css';
 const roboto = Poppins({
   weight: ['400', '700'],
   style: ['normal', 'italic'],

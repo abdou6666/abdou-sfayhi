@@ -1,12 +1,16 @@
 import Image from 'next/image'
-import AvatarImg from '../../public/avatar.png'
-import MyPicture from '../../public/picture.jpeg'
+// import AvatarImg from '../../public/avatar.png'
+// import IMG1 from '../../public/img_1.jpg'
+import IMG2 from '../../public/img_2.jpg'
+// import IMG3 from '../../public/img_3.jpg'
+// import IMG4 from '../../public/img_4.jpg'
+// import IMG5 from '../../public/pic.png'
 
 const Avatar = ({ }) => {
     return (
         <div className='flex flex-col justify-center items-center mt-10 py-5'>
             {/* <div> */}
-            <Image src={AvatarImg} alt="abdou picture" className='w-20 h-20 inline-block rounded-full  z-20' />
+            <Image src={IMG2} alt="abdou picture" className='w-28 h-28 inline-block rounded-full z-20 shadow-sm' />
             {/* <Image src={MyPicture} className='w-24 h-24 inline-block rounded-full border-2border-black' alt='my picture' /> */}
 
             {/* </div> */}
