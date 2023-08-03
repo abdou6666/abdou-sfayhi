@@ -7,16 +7,16 @@ const projects = [
     title: 'pethub',
     description: 'A social app media',
     technologies: ['React', 'Express.js', 'MongoDB', 'Node.js', 'Mongoose', 'SocketIO'],
-    githubLink: 'http://github.com/abdou6666/pethub',
-    hostedLink: 'http://vercel.com'
+    githubLink: 'https://github.com/pethub-org/pethub-esprit',
+    hostedLink: 'https://pethub-front.vercel.app/'
   },
   {
     id: 2,
     title: 'Breadit',
     description: 'A reddit clone',
     technologies: ['Next.js', 'Typescript', 'Tailwindcss', 'Reddis', 'MySQL', 'Prisma', 'NextAuth'],
-    githubLink: 'http://github.com/abdou6666/pethub',
-    hostedLink: 'http://vercel.com'
+    githubLink: 'https://github.com/abdou6666/redit_clone',
+    hostedLink: 'https://redidt-clone.vercel.app/'
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const projects = [
     title: 'Arena (e-sports)',
     description: 'This project conssists of 3 projects (Web app, Desktop app, Mobile app)',
     technologies: ['Symfony 4.4', 'Java 8', 'JavaFx', 'Codenameone', 'MySQL'],
-    githubLink: 'https://github.com/abdou6666/arena',
+    githubLink: 'https://github.com/GermanMachines',
   },
   {
     id: 9,
@@ -73,7 +73,7 @@ const projects = [
     title: 'Nestjs CRUD Api',
     description: 'Project where i tried to learn basics of nestjs',
     technologies: ['Nestjs', 'MySQL', 'TypeORM'],
-    githubLink: 'https://github.com/abdou6666/restaurant-next',
+    githubLink: 'https://github.com/abdou6666/nestjs',
   },
 ]
 
