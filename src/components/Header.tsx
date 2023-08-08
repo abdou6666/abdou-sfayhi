@@ -15,7 +15,7 @@ const Header = () => {
                 <p>
                     I am <span className='font-semibold text-lg capitalize'>Abderrahmen Sfayhi.</span> I am a Computer Science nerd, currently in my last year of studies {' '}
                     <Link href="http://esprit.tn" target='_blank' className='text-cyan-700 hover:underline font-medium'>@ESPRIT</Link> {' '}
-                    pursuing Software Engineering degree, I am eagerly looking forward to take on new challenges and work on entrepise level projects. <span className='text-cyan-700 cursor-pointer'>More...</span>
+                    pursuing Software Engineering degree.I am actually in my final year, I am eagerly looking forward to take on new challenges and work on entrepise level projects. <span className='text-cyan-700 cursor-pointer'>More...</span>
                 </p>
 
                 <br />
