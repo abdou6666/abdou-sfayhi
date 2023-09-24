@@ -61,13 +61,13 @@ const projects = [
     technologies: ['Symfony 4.4', 'Java 8', 'JavaFx', 'Codenameone', 'MySQL'],
     githubLink: 'https://github.com/GermanMachines',
   },
-  {
-    id: 9,
-    title: 'Restaurant',
-    description: 'This project conssists of 3 projects (Web site, Desktop app, Mobile app)',
-    technologies: ['Next.js', 'Tailwindcss', 'PostgreSQL'],
-    githubLink: 'https://github.com/abdou6666/restaurant-next',
-  },
+  // {
+  //   id: 9,
+  //   title: 'Restaurant',
+  //   description: 'This project conssists of 3 projects (Web site, Desktop app, Mobile app)',
+  //   technologies: ['Next.js', 'Tailwindcss', 'PostgreSQL'],
+  //   githubLink: 'https://github.com/abdou6666/restaurant-next',
+  // },
   {
     id: 10,
     title: 'Nestjs CRUD Api',
@@ -75,7 +75,7 @@ const projects = [
     technologies: ['Nestjs', 'MySQL', 'TypeORM'],
     githubLink: 'https://github.com/abdou6666/nestjs',
   },
-]
+];
 
 let content = projects.map((project, index) => {
   if (index % 2 === 0) {
@@ -88,8 +88,8 @@ let content = projects.map((project, index) => {
         {projects[index + 1] && <Project project={projects[index + 1]} />}
       </div>
     </>
-  )
-})
+  );
+});
 
 export default function Home() {
   return (
@@ -101,5 +101,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,5 +1,7 @@
-const ProjectPage = ({ params: { projectId } }: { params: { projectId: string } }) => {
-    return <div></div>
-}
+const ProjectPage = ({ params: { projectId } }: { params: { projectId: string; }; }) => {
+    return <div>
 
-export default ProjectPage
+    </div>;
+
+};
+export default ProjectPage;

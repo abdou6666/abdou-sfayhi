@@ -7,11 +7,11 @@ type ProjectType = {
     id: number;
     title: string;
     description: string;
-    technologies: string[]
+    technologies: string[];
     githubLink: string;
     hostedLink?: string;
-}
-const Project = ({ project }: { project: ProjectType }) => {
+};
+const Project = ({ project }: { project: ProjectType; }) => {
     return (
         <Card className='mt-5 mr-4 w-92 h-60 hover:brightness-95 w-1/2 '>
             <div className="flex flex-col justify-around items-start w-full h-full">
@@ -44,7 +44,7 @@ const Project = ({ project }: { project: ProjectType }) => {
 
             </div>
         </Card>
-    )
-}
+    );
+};
 
-export default Project
+export default Project;

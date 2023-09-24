@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { MailIcon } from 'lucide-react';
 
 export default function Footer() {
@@ -9,9 +9,9 @@ export default function Footer() {
                     <li className="mr-3 text-cyan-700 flex items-center justify-center text-center m-auto w-full">
                         <MailIcon />
                         <span className='ml-3 hover:underline'>
-                            abdousfayhi12@gmail.com
+                            abdousfayhi12@gmail.com{' '} |
                         </span>
-                        <span className='ml-3 hover:underline'>
+                        <span className='ml-2 hover:underline'>
                             sfayhi.abderrahmen@eprit.tn
                         </span>
                         <span className='ml-3 self-end'>
@@ -21,5 +21,5 @@ export default function Footer() {
                 </ul>
             </nav>
         </footer>
-    )
+    );
 }
