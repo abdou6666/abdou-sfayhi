@@ -17,7 +17,7 @@ const Project = ({ project }: { project: ProjectType; }) => {
             <div className="flex flex-col justify-around items-start w-full h-full">
                 <div className="flex items-center justify-between w-full h-full">
 
-                    <Link href={`project/${project.id}`} className='hover:text-zinc-700 cursor-pointer'>
+                    <Link href={`projects/${project.id}`} className='hover:text-zinc-700 cursor-pointer'>
                         <h1 className='font-bold text-2xl '>{project.title}</h1>
                     </Link>
 

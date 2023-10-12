@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${roboto.className} bg-gray-200 overflow-x-hidden `}>
 
         <Navbar />
-        <div className="flex flex-col items-center justify-center bg-yellow-500 rounded p-5 h-24">
+        <div className="flex flex-col items-center justify-center bg-yellow-500 rounded p-5 h-24 w-screen">
           <HardHatIcon className='text-white font-semibold' />
           <p className='text-lg w-fit text-white font-semibold'>Under Consturction</p>
         </div>

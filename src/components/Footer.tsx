@@ -12,7 +12,10 @@ export default function Footer() {
                             abdousfayhi12@gmail.com{' '} |
                         </span>
                         <span className='ml-2 hover:underline'>
-                            sfayhi.abderrahmen@eprit.tn
+                            sfayhi.abderrahmen@eprit.tn {' '} |
+                        </span>
+                        <span className='ml-2 hover:underline'>
+                            +216 22 224 618 {' '} |
                         </span>
                         <span className='ml-3 self-end'>
                             &copy; {new Date().getFullYear()}

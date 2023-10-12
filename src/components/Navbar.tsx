@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 import { FacebookIcon, TwitterIcon, LinkedinIcon, GithubIcon } from 'lucide-react';
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <li className="mr-3 text-cyan-700 hover:underline"><Link href="about-me">About Me</Link></li>
             </ul>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
